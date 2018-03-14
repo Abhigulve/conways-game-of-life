@@ -1,8 +1,6 @@
-package com.ptc.plms.gol.oops;
-
-import com.ptc.plms.gol.oops.entity.Board;
-import com.ptc.plms.gol.oops.entity.Cell;
-import com.ptc.plms.gol.oops.processor.CellProcessor;
+import entity.Board;
+import entity.Cell;
+import processor.CellProcessor;
 
 import java.util.Set;
 

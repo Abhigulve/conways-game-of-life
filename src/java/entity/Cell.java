@@ -1,6 +1,7 @@
-package com.ptc.plms.gol.oops.entity;
+package entity;
 
-import com.ptc.plms.gol.oops.constants.State;
+
+import constants.State;
 
 /**
  * 
@@ -14,7 +15,7 @@ public class Cell {
 
 	public Cell(int x,int y)
 	{
-		this(x,y,State.DEAD);
+		this(x,y, State.DEAD);
 	}
 	
 	public Cell(int x,int y,State state)

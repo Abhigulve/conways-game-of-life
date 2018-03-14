@@ -1,10 +1,11 @@
-package com.ptc.plms.gol.oops.processor;
+package processor;
 
-import com.ptc.plms.gol.oops.entity.Board;
-import com.ptc.plms.gol.oops.entity.Cell;
-import com.ptc.plms.gol.oops.constants.State;
-import com.ptc.plms.gol.oops.rules.Rule;
-import com.ptc.plms.gol.oops.strategy.GameStrategy;
+
+import constants.State;
+import entity.Board;
+import entity.Cell;
+import rules.Rule;
+import strategy.GameStrategy;
 
 public class CellProcessor {
 

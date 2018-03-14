@@ -1,8 +1,7 @@
-package com.ptc.plms.gol.oops.strategy;
+package strategy;
 
-import java.util.Set;
 
-import com.ptc.plms.gol.oops.rules.Rule;
+import rules.Rule;
 
 /**
  * 

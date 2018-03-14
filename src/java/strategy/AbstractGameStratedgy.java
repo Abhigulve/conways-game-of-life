@@ -1,6 +1,7 @@
-package com.ptc.plms.gol.oops.strategy;
+package strategy;
 
-import com.ptc.plms.gol.oops.rules.Rule;
+
+import rules.Rule;
 
 /**
  * 
@@ -9,7 +10,7 @@ import com.ptc.plms.gol.oops.rules.Rule;
  */
 public abstract class AbstractGameStratedgy implements GameStrategy {
 
-	private Rule [] rules; 
+	private Rule[] rules;
 	
 	@Override
 	public void setRules(Rule[] rules) {

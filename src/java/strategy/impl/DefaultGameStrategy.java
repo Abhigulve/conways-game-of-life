@@ -1,7 +1,8 @@
-package com.ptc.plms.gol.oops.strategy.impl;
+package strategy.impl;
 
-import com.ptc.plms.gol.oops.rules.Rule;
-import com.ptc.plms.gol.oops.strategy.AbstractGameStratedgy;
+
+import rules.Rule;
+import strategy.AbstractGameStratedgy;
 
 /**
  * @author hdhingra

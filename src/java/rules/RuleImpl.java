@@ -1,6 +1,7 @@
-package com.ptc.plms.gol.oops.rules;
+package rules;
 
-import com.ptc.plms.gol.oops.constants.State;
+
+import constants.State;
 
 /**
  * 

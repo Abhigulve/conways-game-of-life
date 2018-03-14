@@ -1,6 +1,7 @@
-package com.ptc.plms.gol.oops.entity;
+package entity;
 
-import com.ptc.plms.gol.oops.constants.State;
+
+import constants.State;
 
 import java.util.HashSet;
 import java.util.Iterator;
