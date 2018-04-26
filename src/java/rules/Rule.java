@@ -5,7 +5,7 @@ import constants.State;
 
 /**
  * 
- * @author hdhingra
+ * @author abhijeet
  *
  */
 public interface Rule {

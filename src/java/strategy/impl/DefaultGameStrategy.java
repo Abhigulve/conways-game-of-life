@@ -5,7 +5,7 @@ import rules.Rule;
 import strategy.AbstractGameStratedgy;
 
 /**
- * @author hdhingra
+ * @author abhijeet
  */
 public class DefaultGameStrategy extends AbstractGameStratedgy {
 

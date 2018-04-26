@@ -4,14 +4,14 @@ package rules;
 import constants.State;
 
 /**
- * @author hdhingra
+ * @author abhijeet
  */
 public class RuleImpl implements Rule {
 
     @Override
     public State nextState(State currentState, int liveNeighbours) {
-
-		/*if(State.LIVE.equals(currentState))
+/*
+		if(State.LIVE.equals(currentState))
 		{
 			if(liveNeighbours==2 || liveNeighbours==3)
 			{

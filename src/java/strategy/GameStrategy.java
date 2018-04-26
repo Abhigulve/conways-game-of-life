@@ -5,7 +5,7 @@ import rules.Rule;
 
 /**
  * 
- * @author hdhingra
+ * @author abhijeet
  *
  */
 public interface GameStrategy {

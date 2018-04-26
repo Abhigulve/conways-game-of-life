@@ -1,6 +1,6 @@
 package constants;
 
-public enum State {
+public enum State implements StateI {
     LIVE() {
         @Override
         public State getNextState(int liveNeighbours) {
@@ -17,6 +17,9 @@ public enum State {
             }
             return this;
         }
-    };
-    public abstract State getNextState(int liveNeighbours);
+    }
+}
+
+interface StateI {
+    State getNextState(int liveNeighbours);
 }
