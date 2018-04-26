@@ -1,6 +1,3 @@
-
-
-
 import constants.State;
 import entity.Board;
 import entity.Cell;
@@ -10,13 +7,8 @@ import rules.Rule;
 import rules.RuleImpl;
 import strategy.GameStrategy;
 import strategy.impl.DefaultGameStrategy;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.HashSet;
 import java.util.Set;
-
 import static org.junit.Assert.assertEquals;
 
 
