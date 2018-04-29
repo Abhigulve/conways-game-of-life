@@ -1,4 +1,4 @@
-import constants.State;
+import enums.State;
 import entity.Board;
 import entity.Cell;
 import org.junit.Test;

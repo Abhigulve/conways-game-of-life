@@ -1,7 +1,7 @@
 package rules;
 
 
-import constants.State;
+import enums.State;
 
 /**
  * 

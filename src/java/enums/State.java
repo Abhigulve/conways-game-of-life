@@ -1,4 +1,4 @@
-package constants;
+package enums;
 
 public enum State implements StateI {
     LIVE() {
@@ -18,8 +18,4 @@ public enum State implements StateI {
             return this;
         }
     }
-}
-
-interface StateI {
-    State getNextState(int liveNeighbours);
 }

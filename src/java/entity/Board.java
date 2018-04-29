@@ -1,7 +1,7 @@
 package entity;
 
 
-import constants.State;
+import enums.State;
 
 import java.util.HashSet;
 import java.util.Iterator;
