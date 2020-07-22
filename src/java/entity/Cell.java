@@ -17,26 +17,25 @@ public class Cell {
 	{
 		this(x,y, State.DEAD);
 	}
-	
-	public Cell(int x,int y,State state)
-	{
+
+	public Cell(int x,int y,State state){
 		this.x=x;
 		this.y=y;
 		this.state = state;
 	}
-	
+
 	public int getX() {
 		return x;
 	}
-	
+
 	public int getY() {
 		return y;
 	}
-	
+
 	public State getState() {
 		return state;
 	}
-	
+
 	public void setState(State state) {
 		this.state = state;
 	}
@@ -69,5 +68,4 @@ public class Cell {
 	public Cell createCopy() {
 		return new Cell(x,y,state);
 	}
-	
 }
